@@ -24,17 +24,17 @@
 
 @font-face {
   font-family: "HankenGrotesk";
-  src: url(https://github.com/Crispy-Tofu/Results-summary/tree/master/assets/fonts/static/HankenGrotesk-Medium.ttf);
+  src: url(../assets/fonts/static/HankenGrotesk-Medium.ttf);
 }
 
 @font-face {
   font-family: "HankenGrotesk Extra";
-  src: url(https://github.com/Crispy-Tofu/Results-summary/tree/master/assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
+  src: url(../assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
 }
 
 @font-face {
   font-family: "HankenGrotesk Bold";
-  src: url(https://github.com/Crispy-Tofu/Results-summary/tree/master/assets/fonts/static/HankenGrotesk-Bold.ttf);
+  src: url(../assets/fonts/static/HankenGrotesk-Bold.ttf);
 }
 /* RESET */
 
