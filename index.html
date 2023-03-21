@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Results summary component</title>
+  </head>
+  <body>
+    <main>
+      <article class="result-component">
+        <div class="result-display">
+          <h1 class="your-result">Your Result</h1>
+          <div class="score-circle">
+            <p class="total-score">76</p>
+            <p>of 100</p>
+          </div>
+          <p>
+            <span class="score-def">Great</span> You scored higher than 65% of
+            the people who have taken these tests.
+          </p>
+        </div>
+
+        <div class="result-summary">
+          <h3>Summary</h3>
+          <ul class="result-list">
+            <li class="result-list__item">
+              <div class="result-type">
+                <img
+                  src="assets/images/icon-reaction.svg"
+                  class="result-type__image"
+                />Reaction
+              </div>
+              <p>
+                <span class="type-score"> 80 </span
+                ><span class="from-hundred">/ 100</span>
+              </p>
+            </li>
+            <li class="result-list__item">
+              <div class="result-type">
+                <img
+                  src="assets/images/icon-memory.svg"
+                  class="result-type__image"
+                />Memory
+              </div>
+              <p>
+                <span class="type-score">92 </span
+                ><span class="from-hundred">/ 100</span>
+              </p>
+            </li>
+            <li class="result-list__item">
+              <div class="result-type">
+                <img
+                  src="assets/images/icon-verbal.svg"
+                  class="result-type__image"
+                />Verbal
+              </div>
+              <p>
+                <span class="type-score">61 </span
+                ><span class="from-hundred">/ 100</span>
+              </p>
+            </li>
+            <li class="result-list__item">
+              <div class="result-type">
+                <img
+                  src="assets/images/icon-visual.svg"
+                  class="result-type__image"
+                />Visual
+              </div>
+              <p>
+                <span class="type-score">72 </span
+                ><span class="from-hundred">/ 100</span>
+              </p>
+            </li>
+          </ul>
+          <a href="#" type="button" class="continue-button button">
+            Continue
+          </a>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

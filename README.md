@@ -1,0 +1,1 @@
+I found this a more difficult challenge. The result summary seemed to need a lot of html markup to work properly and I'm not entirely sure if that could have been done more efficiently. Even though I wrote it myself, it has already become quite hard to understand. But that may also be the class naming which could have been clearer
